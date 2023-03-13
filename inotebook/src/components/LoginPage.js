@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {Link, useNavigate} from 'react-router-dom'
-const host = "http://localhost:4000";
+// const host = "http://localhost:4000";
+const host = "https://inotebook-api-l0zv.onrender.com";
 
 export default function LoginPage() {
     const [credentials,setcredentials]=useState({email:"",password:""})
