@@ -12,7 +12,7 @@ const connectToMongo = ()=>{
         console.log("Database Connected")
     })
     .catch((error)=>{
-        console.log(err);
+        console.log(error);
     })
 }
 
